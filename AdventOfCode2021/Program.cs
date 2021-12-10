@@ -1,6 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using AdventOfCode2021.Day1;
+using AdventOfCode2021.Day01;
+using AdventOfCode2021.Day02;
+using AdventOfCode2021.Day03;
+using AdventOfCode2021.Day04;
+using AdventOfCode2021.Day05;
+using AdventOfCode2021.Day06;
+using AdventOfCode2021.Day07;
+using AdventOfCode2021.Day08;
+using AdventOfCode2021.Day09;
 
 namespace AdventOfCode2021
 {
@@ -8,15 +16,16 @@ namespace AdventOfCode2021
     {
         private static Dictionary<int, DayBase> _days = new Dictionary<int, DayBase>
         {
-            { 1, new Day1.Day1() },
-            { 2, new Day2.Day2() },
-            { 3, new Day3.Day3() },
-            { 4, new Day4.Day4() },
-            { 5, new Day5.Day5() },
-            { 6, new Day6.Day6() },
-            { 7, new Day7.Day7() },
-            { 8, new Day8.Day8() },
-            { 9, new Day9.Day9() },
+            { 1, new Day1() },
+            { 2, new Day2() },
+            { 3, new Day3() },
+            { 4, new Day4() },
+            { 5, new Day5() },
+            { 6, new Day6() },
+            { 7, new Day7() },
+            { 8, new Day8() },
+            { 9, new Day9() },
+            { 10, new Day10.Day10() },
         };
 
         static void Main(string[] args)

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AdventOfCode2021.Day1
+namespace AdventOfCode2021.Day01
 {
     public class Day1 : DayBase
     {

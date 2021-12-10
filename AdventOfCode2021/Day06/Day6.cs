@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
 
-namespace AdventOfCode2021.Day6
+namespace AdventOfCode2021.Day06
 {
     public class Day6 : DayBase
     {

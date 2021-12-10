@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode2021.Day4
+namespace AdventOfCode2021.Day04
 {
     public class Day4 : DayBase
     {

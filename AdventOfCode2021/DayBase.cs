@@ -15,7 +15,7 @@ namespace AdventOfCode2021
         }
         protected StreamReader GetStreamReader(int testNumber)
         {
-            return new StreamReader($"Day{Day}\\Input{testNumber}.txt");
+            return new StreamReader($"Day{Day:D2}\\Input{testNumber}.txt");
         }
         protected List<string> GetInputAsStringList(int testNumber)
         {
