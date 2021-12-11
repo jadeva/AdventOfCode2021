@@ -26,6 +26,7 @@ namespace AdventOfCode2021
             { 8, new Day8() },
             { 9, new Day9() },
             { 10, new Day10.Day10() },
+            { 11, new Day11.Day11() },
         };
 
         static void Main(string[] args)

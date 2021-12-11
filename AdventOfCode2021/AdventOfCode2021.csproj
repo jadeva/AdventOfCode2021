@@ -7,6 +7,7 @@
 
     <ItemGroup>
       <None Remove="Day1\Input.txt" />
+      <None Remove="obj\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -62,6 +63,18 @@
       <Content Include="Day01\Input1.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="Day11\Input1.txt" />
+      <Content Include="Day11\Input1.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="obj\**" />
     </ItemGroup>
 
 </Project>
